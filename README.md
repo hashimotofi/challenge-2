@@ -207,7 +207,6 @@ TokenVault (needs all: VaultManager, RewardDistributor, PriceOracle)
 
 ## Success Metrics
 - [ ] Contracts deploy successfully to Plume testnet
-- [ ] All contracts verified on Plume testnet explorer
 - [ ] System is fully configured and operational
 - [ ] Deployment addresses are properly documented
 - [ ] Configuration matches network requirements
@@ -217,7 +216,6 @@ Submit containing:
 - Complete Hardhat project with deployment scripts (deploy-vault.ts, configure.ts, verify.ts)
 - `deployments.json` with contract addresses
 - `DEPLOYMENT_REPORT.md` with deployment summary
-- Source code verification of all deployed contracts on Plume Testnet Explorer
 
 ## Quick Start Commands
 We expect the complete challenge to be able to run the following commands with intended results:
