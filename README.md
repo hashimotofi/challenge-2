@@ -112,7 +112,6 @@ await rewardDistributor.grantRole(VAULT_ROLE, tokenVault.address);
 **Requirements**:
 Create `scripts/verify.ts` that:
 - Checks all contracts are deployed correctly
-- Performs source code verification of deployed contracts on Plume testnet explorer
 - Validates contract configurations match requirements
 - Tests basic contract interactions
 - Generates deployment summary report
