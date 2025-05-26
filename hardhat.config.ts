@@ -10,7 +10,6 @@ import "dotenv/config";
 // Hardhat will automatically read from .env file
 // Sample reference:
 // const PRIVATE_KEY = process.env.PRIVATE_KEY || "0x0000000000000000000000000000000000000000000000000000000000000000";
-// const PLUMESCAN_API_KEY = process.env.PLUMESCAN_API_KEY || "";
 
 // The networks section should be completed by the candidate
 // with Plume testnet configuration
@@ -31,7 +30,6 @@ const config: HardhatUserConfig = {
       chainId: 31337
     }
   },
-  // Plumescan verification configuration to be added by candidate
   
   // Ensure gas reporter is configured
 };
