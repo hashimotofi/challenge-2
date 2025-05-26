@@ -20,7 +20,6 @@ You need to deploy an existing vault ecosystem to Plume testnet. This is a conne
 **Requirements**:
 - Add Plume testnet to `hardhat.config.ts`
 - Configure RPC endpoint, chain ID, and gas settings
-- Set up Plume testnet explorer (https://testnet-explorer.plume.org/) verification 
 - Configure deployment account management
 
 **Deliverable**: Updated `hardhat.config.ts` with Plume testnet network
